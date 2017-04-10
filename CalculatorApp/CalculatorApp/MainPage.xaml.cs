@@ -275,6 +275,7 @@ namespace CalculatorApp
             else
                 Output.Text += ".";
         }
+        //click event for plus
         private void OnButtonClicked_plus(object sender, System.EventArgs e)
         {
             if (error == 1)
